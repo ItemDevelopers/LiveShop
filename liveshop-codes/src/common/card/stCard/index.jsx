@@ -1,5 +1,4 @@
 import "./style.css"
-import img from "../../../assets/img/Graphic.jpg"
 
 function StCard(props) {
     return(
@@ -14,8 +13,8 @@ function StCard(props) {
                     <p>{props.cost}</p>
                 </span>
                 <span>
-                    <button className="fa-solid fa-cart-shopping"></button>
-                    <button className="fa-solid fa-box"></button>
+                    <button value={props.elem} className="fa-solid fa-cart-shopping"></button>
+                    <button value={props.elem} className="fa-solid fa-box"></button>
                 </span>
             </div>
         </div>

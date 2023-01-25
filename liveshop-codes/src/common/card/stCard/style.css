@@ -18,6 +18,7 @@
 .stCard h2{
     font-size: 2vw;
     margin: 1vw 0.5vw;
+    color: var(--black);
 }
 .stCard p{
     max-width: 30vw;
