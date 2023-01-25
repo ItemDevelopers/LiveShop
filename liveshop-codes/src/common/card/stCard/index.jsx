@@ -1,9 +1,10 @@
 import "./style.css"
+import img from "../../../assets/img/Graphic.jpg"
 
 function StCard(props) {
     return(
         <div className="stCard">
-            <img src={props.photo} alt="cardImg" />
+            <img src={img} alt="cardImg" />
             <h2>Title{props.title}</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nam, dolore et laborum quis aliquam beatae tempora laudantium fugit magni.{props.text}</p>
             <div>
