@@ -23,6 +23,8 @@ input, button, select{
    --purpil: #A02EE1;
    --white: #FFF;
    --black: #000;
+   --green: lightgreen;
+   --red: red;
    --gray: rgb(182, 181, 181);
    --box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.35);
   }

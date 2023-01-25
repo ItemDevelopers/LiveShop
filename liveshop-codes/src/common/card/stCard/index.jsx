@@ -4,13 +4,14 @@ import img from "../../../assets/img/Graphic.jpg"
 function StCard(props) {
     return(
         <div className="stCard">
-            <img src={img} alt="cardImg" />
-            <h2>Title{props.title}</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nam, dolore et laborum quis aliquam beatae tempora laudantium fugit magni.{props.text}</p>
+            {props.sale ? <div className="saleBox"><p>{props.sale}</p></div>:null}
+            <img src={props.img} alt="cardImg" />
+            <h2>{props.title}</h2>
+            <p>{props.text}</p>
             <div>
                 <span>
-                    <i>1,800{props.oldCost}</i>
-                    <p>1,600{props.cost}</p>
+                    <i>{props.oldCost}</i>
+                    <p>{props.cost}</p>
                 </span>
                 <span>
                     <button className="fa-solid fa-cart-shopping"></button>
